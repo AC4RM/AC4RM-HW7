@@ -39,7 +39,7 @@ def test_model():
 
 
 def test_regex():
-    number_1 = extract_number('Today is July 4h')
+    number_1 = extract_number('Today is July 4th')
     number_2 = extract_number('Yesterday was July 3rd')
 
     assert number_1 == '4'
